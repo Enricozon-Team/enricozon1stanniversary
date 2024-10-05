@@ -46,9 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     botResponse = "Ha una farm di caramelle (infinite)";
                 }
 
-
-
-            // Simulate a response from the chatbot
             setTimeout(function () {
                 addMessage("bot", `Enricozon AI: ${botResponse}`);
             }, 1000);
